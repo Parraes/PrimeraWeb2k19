@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to right, lightblue, pink);
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+.container {
+    background: linear-gradient(to right, black, white);
+
+    width: 50%;
+    display: flex; /* Opcional: Si necesitas organizar elementos dentro del container */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos dentro del container */
+    align-items: center; /* Centra los elementos dentro del container */
+    text-align: center; /* Centra el texto dentro del container */
+}
+
+.container2 {
+    background: linear-gradient(to right, black, white);
+
+    width: auto;
+    height: auto;
+    display: flex; /* Opcional: Si necesitas organizar elementos dentro del container */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos dentro del container */
+    align-items: center; /* Centra los elementos dentro del container */
+    text-align: center; /* Centra el texto dentro del container */
+}
+
+.miNombre {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+p{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+label{
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.miFoto{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    border: 5px solid black;
+}
+
+.f1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.moto{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.boxeo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.viajes{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.BotonCambiarTema {
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    font-size: 24px; /* Tamaño del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+}
+
+#BotonTema{
+    font-size: 50px;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

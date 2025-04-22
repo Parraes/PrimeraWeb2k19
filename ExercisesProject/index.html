@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src = "script.js" defer></script>
+    
+</head>
+
+<body>
+    <div class ="container">
+
+        <div class="BotonCambiarTema">
+            <p>Cambiar tema</p>
+            <i id="BotonTema" class="fa-solid fa-toggle-on" onclick="cambiarFondo()"></i>
+        </div>
+
+        <div class ="header">
+            <h1 class="miNombre">Andrés Parra Estebaránz</h1>
+            <p>Hola me llamo Andrés y esto es una prueba</p>
+        </div>
+
+        <div class="foto">
+            <img src="src/img/yo.jpg" alt="Foto de Andrés" class="miFoto">
+        </div>
+
+        <div class="bloque">
+            <h2>Hobbies</h2>
+
+            <div class="bloque1">
+                    <img src = "src/img/f1.jpg" alt="f1" class="f1">
+
+                    <img src = "src/img/box.jpg" alt="Boxeo" class="boxeo">
+            </div>
+
+            <div class="bloque2">
+
+                    <img src = "src/img/t700.jpg" alt="Moto" class="moto">
+
+                    <img src = "src/img/goldcoast.jpg" alt="Viajes" class="viajes">
+            </div>
+
+        </div>
+
+        <div class="formulario">
+            <h2>Formulario de contacto</h2>
+            <label for="nombre">Correo electrónico:</label>
+            <input type="text" id="correo" placeholder="Escribe tu correo electrónico">
+        </div>
+
+        <div class="boton">
+            <button onclick="mostrarCorreo()">Enviar</button>
+        </div>
+
+        <div class="outPut">
+            <h2>Verificación</h2>
+            <label>Confirmación:</label>
+            <output id ="confirmacion"></output>
+
+        </div>
+
+        <div class="video">
+            <a href="index2.html" class="boton">Mi primer vídeo de youtube</a>
+        </div>
+
+        <div class="piePagina">
+            <footer>
+                <p>Hecho por Andrés Parra</p>
+                <p>2019</p>
+            </footer>
+        </div>
+        
+    </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
